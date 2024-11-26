@@ -32,7 +32,6 @@ struct GappsSite: Site {
     var theme = MyTheme()
 
 	var pages: [any StaticPage] {
-		TestPage()
         BlogPosts()
 	}
 

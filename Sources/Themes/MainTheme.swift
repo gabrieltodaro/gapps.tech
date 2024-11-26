@@ -18,7 +18,7 @@ struct MyTheme: Theme {
 				
                 page.body
 
-                IgniteFooter()
+                GappsFooter()
             }
             .style("background-color: #fef9d6;")
 			.padding(.vertical, 120)
