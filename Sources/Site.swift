@@ -7,7 +7,7 @@ struct IgniteWebsite {
         let site = GappsSite()
 
         do {
-            try await site.publish(buildDirectoryPath: "docs")
+            try await site.publish()
         } catch {
             print(error.localizedDescription)
         }
