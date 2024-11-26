@@ -11,7 +11,7 @@ import Ignite
 struct ArticleTheme: Theme {
 	func render(page: Page, context: PublishingContext) async -> HTML {
 		HTML {
-			Head(for: page, in: context)
+			RemoteHead(for: page, in: context)
 
 			Body {
 				// TODO: Implement navbar
