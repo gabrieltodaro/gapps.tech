@@ -11,7 +11,7 @@ import Ignite
 struct MyTheme: Theme {
     func render(page: Page, context: PublishingContext) -> HTML {
         HTML {
-            Head(for: page, in: context)
+            RemoteHead(for: page, in: context)
 
             Body {
 				HeaderNavBar()
